@@ -80,7 +80,7 @@ holiday_array = []
   end
   holiday_array
 end
-end
+
 
 
 
