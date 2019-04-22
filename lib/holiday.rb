@@ -45,7 +45,7 @@ def all_winter_holiday_supplies(holiday_hash)
   all_supplies = []
   all_supplies << holiday_hash[:winter][:christmas]
   all_supplies << holiday_hash[:winter][:new_years]
-  all_supplies
+  all_supplies.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
